@@ -1,0 +1,9 @@
+main.o: main.cc ../include/robot.h ../include/robotInterface.h \
+ ../include/RandNorm.h ../include/Rand.h ../include/ConcreteTile.h \
+ ../include/Tile.h ../include/Attachment.h ../include/robotType.h \
+ ../include/ConcreteBoard.h ../include/Board.h ../include/robot.h \
+ ../src/robot/Attachment.cc ../src/robot/../../include/Attachment.h \
+ ../include/heavyRobotType.h ../include/mediumRobotType.h \
+ ../include/lightRobotType.h ../include/user.h ../include/ConcreteBoard.h \
+ ../include/ai.h ../include/RandNorm.h ../include/utility.h
+utility.o: utility.cc ../include/utility.h

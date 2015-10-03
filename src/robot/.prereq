@@ -1,0 +1,19 @@
+user.o: user.cc ../../include/RandNorm.h ../../include/Rand.h \
+ ../../include/user.h ../../include/robot.h \
+ ../../include/robotInterface.h ../../include/RandNorm.h \
+ ../../include/ConcreteTile.h ../../include/Tile.h \
+ ../../include/Attachment.h ../../include/robotType.h \
+ ../../include/ConcreteBoard.h ../../include/Board.h \
+ ../../include/utility.h ../../include/ConcreteBoard.h
+ai.o: ai.cc ../../include/RandNorm.h ../../include/Rand.h \
+ ../../include/ai.h ../../include/robot.h ../../include/robotInterface.h \
+ ../../include/RandNorm.h ../../include/ConcreteTile.h \
+ ../../include/Tile.h ../../include/Attachment.h \
+ ../../include/robotType.h
+robot.o: robot.cc ../../include/robot.h ../../include/robotInterface.h \
+ ../../include/RandNorm.h ../../include/Rand.h \
+ ../../include/ConcreteTile.h ../../include/Tile.h \
+ ../../include/Attachment.h ../../include/robotType.h
+RandNorm.o: RandNorm.cc ../../include/RandNorm.h ../../include/Rand.h
+RandTest.o: RandTest.cc ../../include/RandTest.h ../../include/Rand.h
+Attachment.o: Attachment.cc ../../include/Attachment.h

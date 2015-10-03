@@ -1,0 +1,7 @@
+mainTest.o: mainTest.cc TestTile.h ../include/ConcreteTile.h \
+ ../include/Tile.h TestBoard.h ../include/robot.h \
+ ../include/robotInterface.h ../include/RandNorm.h ../include/Rand.h \
+ ../include/ConcreteTile.h ../include/Attachment.h ../include/robotType.h \
+ ../include/ConcreteBoard.h ../include/Board.h ../include/robot.h \
+ ../include/lightRobotType.h robotTest.h ../include/RandTest.h \
+ ../include/Attachment.h revAiTest.h ../include/ai.h

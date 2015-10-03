@@ -1,0 +1,8 @@
+ConcreteBoard.o: ConcreteBoard.cc ../../include/ConcreteBoard.h \
+ ../../include/Board.h ../../include/robot.h \
+ ../../include/robotInterface.h ../../include/RandNorm.h \
+ ../../include/Rand.h ../../include/ConcreteTile.h ../../include/Tile.h \
+ ../../include/Attachment.h ../../include/robotType.h \
+ ../../include/ConcreteTile.h ../../include/robot.h
+ConcreteTile.o: ConcreteTile.cc ../../include/ConcreteTile.h \
+ ../../include/Tile.h
